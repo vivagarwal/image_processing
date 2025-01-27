@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "e43190d9-d2fe-4bea-ac64-3ccf21aec8f5",
+		"name": "imageprocessor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36800750"
+	},
+	"item": [
+		{
+			"name": "upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aayush/Documents/vivek/ImageProcessing/sample.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/imgproc/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"imgproc",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload faulty",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aayush/Documents/vivek/ImageProcessing/sample.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/imgproc/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"imgproc",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/imgproc/hello",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"imgproc",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requst status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/imgproc/status/99841d6e-d91c-463c-a895-7ad41a574908",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"imgproc",
+						"status",
+						"99841d6e-d91c-463c-a895-7ad41a574908"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requst status prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/imgproc/status/99841d6e-d91c-463c-a895-7ad41a574908",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"imgproc",
+						"status",
+						"99841d6e-d91c-463c-a895-7ad41a574908"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hello prod",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aayush/Documents/vivek/ImageProcessing/sample.csv",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://image-processing-backend-78pm.onrender.com/imgproc/hello",
+					"protocol": "https",
+					"host": [
+						"image-processing-backend-78pm",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"imgproc",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "db conn prod",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aayush/Documents/vivek/ImageProcessing/sample.csv",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://image-processing-backend-78pm.onrender.com/imgproc/check_db_connection",
+					"protocol": "https",
+					"host": [
+						"image-processing-backend-78pm",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"imgproc",
+						"check_db_connection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "upload prod",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/aayush/Documents/vivek/ImageProcessing/sample.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://image-processing-backend-78pm.onrender.com/imgproc/upload",
+					"protocol": "https",
+					"host": [
+						"image-processing-backend-78pm",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"imgproc",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
