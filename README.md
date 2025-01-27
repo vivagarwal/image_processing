@@ -12,6 +12,12 @@ Explore the live application:
 
 ---
 
+### 🎥 Demo GIF
+
+![Demo](media/demo_image_processor.gif)
+
+---
+
 ## 🌟 Features
 
 - **CSV Upload:** Upload CSV files containing image URLs for processing.
