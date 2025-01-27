@@ -63,7 +63,6 @@ Below is the high-level architecture of the Image Processing Platform.
 
 ```bash
 git clone --recurse-submodules https://github.com/vivagarwal/image_processing.git
-cd backend
 ```
 
 ---
