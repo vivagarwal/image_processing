@@ -51,25 +51,13 @@ Below is the high-level architecture of the Image Processing Platform.
 - **Tailwind CSS** – Styling framework.
 
 ### **Deployment**
-- **GitHub Actions** – CI/CD for automated deployments.
-- **Docker** – Containerized deployment.
-- **AWS EC2/S3** – Hosting for backend and storage.
+- **GitHub Actions** – Async Celery tasks imitated by cron.
+- **Render** – Backend Django web service.
+- **Vercel** – Frontend hosting
 
 ---
 
 ## 🔧 How to Run the Project Locally
-
-### Prerequisites
-Ensure you have the following installed:
-
-- **Python** (>=3.8)
-- **PostgreSQL or any sql/nosqldb**
-- **Node.js** (>=14.x)
-- **Redis** (Local or Cloud instance)
-- **AWS S3 Account** (Optional, for image storage)
-- **Docker** (Optional, for containerized execution)
-
----
 
 ### 1. Clone the Repository
 
