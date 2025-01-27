@@ -266,6 +266,7 @@ Deploy the frontend on Vercel or Netlify.
 1. Import the provided Postman collection (ref file 'imageprocessor.postman_collection.json' in repository).
 2. Update the environment variables with local backend URLs.
 3. Run tests for CSV upload, status checking, and webhook verification.
+4. following has postman requests to test backend : [https://www.postman.com/telecoms-physicist-14910477/workspace/image-processor-postman-vivek/collection/36800750-b058e9ea-a0eb-47da-915d-da8725f140f3?action=share&creator=36800750]
 
 ---
 
