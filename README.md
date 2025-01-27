@@ -12,18 +12,6 @@ Explore the live application:
 
 ---
 
-## 📂 Repositories
-
-This project consists of the following submodules:
-
-1. **Backend:**  
-   GitHub: [Image Processing Backend](https://github.com/vivagarwal/image_processing_backend)
-
-2. **Frontend:**  
-   GitHub: [Image Processing Frontend](https://github.com/vivagarwal/image_processing_frontend)
-
----
-
 ## 🌟 Features
 
 - **CSV Upload:** Upload CSV files containing image URLs for processing.
@@ -228,14 +216,10 @@ celery -A image_processing_backend worker --loglevel=info
 
 ## 📦 Deployment
 
-### **Backend Deployment**
-1. Build and run backend using Docker:
-   ```bash
-   docker build -t image-processing-backend .
-   docker run -p 8000:8000 image-processing-backend
-   ```
-
-2. Deploy backend on AWS EC2 using Docker.
+### Backend and Compiler Deployment on AWS EC2
+1. Set up an EC2 instance with Docker and Node.js installed.
+2. Clone the repository and set up the backend and compiler services as described above.
+3. Ensure the services are accessible via public IP.
 
 ### **Frontend Deployment**
 Deploy the frontend on Vercel or Netlify.

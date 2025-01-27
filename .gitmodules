@@ -1,0 +1,6 @@
+[submodule "image_processing_backend"]
+	path = image_processing_backend
+	url = https://github.com/vivagarwal/image_processing_backend.git
+[submodule "image_processing_frontend"]
+	path = image_processing_frontend
+	url = https://github.com/vivagarwal/image_processing_frontend.git
