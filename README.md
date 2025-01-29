@@ -26,7 +26,7 @@ Below is the high-level architecture of the Image Processing Platform.
 
 ---
 
-### LLD and HLD demo_img_processor
+### LLD and HLD doc
 
 [https://drive.google.com/file/d/1C26rui7waWPiwrhhfa7U-chCxo-Md8-j/view?usp=sharing]
 
