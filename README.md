@@ -1,6 +1,6 @@
 # 🚀 Image Processing Platform
 
-Welcome to **Image Processing Platform**, a powerful system designed to process image transformation tasks asynchronously. This project leverages **Django** for the backend, **Next.js** for the frontend, **Celery** for asynchronous task processing, **PostgreSQL** for storage, and **Redis** for task queuing. The system allows users to upload CSV files containing image URLs, processes the images and compress its size, and provides the results via webhooks.
+Welcome to **Image Processing Platform**, a powerful system designed to process image transformation tasks to compress images asynchronously. This project leverages **Django** for the backend, **Next.js** for the frontend, **Celery** for asynchronous task processing, **PostgreSQL** for storage, and **Redis** for task queuing. The system allows users to upload CSV files containing image URLs, processes the images and compress its size, and provides the results via webhooks.
 
 ---
 
@@ -25,6 +25,10 @@ Below is the high-level architecture of the Image Processing Platform.
 ![System Architecture](media/image_processor_hld.jpg)
 
 ---
+
+### LLD and HLD demo_img_processor
+
+[https://drive.google.com/file/d/1C26rui7waWPiwrhhfa7U-chCxo-Md8-j/view?usp=sharing]
 
 ## 🌟 Features
 
